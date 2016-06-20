@@ -1,0 +1,27 @@
+setuptools
+zope.app.file
+zope.browserpage
+zope.component
+zope.copy
+zope.security
+zope.traversing
+plone.rfc822>=1.0b2
+
+[blobs]
+
+[editor]
+plone.schemaeditor
+
+[marshaler]
+
+[scales]
+plone.scale[storage] >=1.1
+
+[supermodel]
+plone.supermodel
+
+[test]
+plone.namedfile[supermodel, scales]
+lxml
+Pillow
+Zope2

@@ -1,0 +1,27 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="meu.produto">
+
+  <!-- Set overrides folder for Just-a-Bunch-Of-Templates product -->
+  <include package="z3c.jbot" file="meta.zcml" />
+  <browser:jbot
+      directory="overrides"
+      layer="meu.produto.interfaces.IMeuProdutoLayer"
+      />
+
+  <!-- Publish static files -->
+  <browser:resourceDirectory
+      name="meu.produto"
+      directory="static"
+      />
+
+  <browser:page
+        for="*"
+        name="visualizar"
+        permission="zope2.Public"
+        class=".teste.Teste"
+        />
+
+</configure>

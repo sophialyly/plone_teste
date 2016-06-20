@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layers>
+  <layer
+      name="prodam.test1"
+      interface="prodam.test1.interfaces.IProdamTest1Layer"
+      />
+</layers>

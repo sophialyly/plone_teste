@@ -1,0 +1,30 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="cmfplacefulworkflow">
+
+  <genericsetup:registerProfile
+     name="CMFPlacefulWorkflow"
+     title="Workflow Policy Support (CMFPlacefulWorkflow)"
+     directory="profiles/default"
+     description="Add in Plone the capability to change workflow chains for types in every object. Includes a dependency on core Plone types."
+     provides="Products.GenericSetup.interfaces.EXTENSION"
+     />
+
+  <genericsetup:registerProfile
+     name="base"
+     title="Workflow Policy Support (CMFPlacefulWorkflow) - no core types dependency"
+     directory="profiles/base"
+     description="Add in Plone the capability to change workflow chains for types in every object. With no dependency on core Plone types."
+     provides="Products.GenericSetup.interfaces.EXTENSION"
+     />
+
+  <genericsetup:upgradeStep
+    title="Apply full profile"
+    description="Meant mostly for upgrades from ancient versions that had no profile yet."
+    source="*"
+    destination="1.4.1"
+    handler=".upgrades.apply_full_profile"
+    profile="Products.CMFPlacefulWorkflow:CMFPlacefulWorkflow" />
+
+</configure>

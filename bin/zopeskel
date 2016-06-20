@@ -1,0 +1,19 @@
+#!/home/raphaeliarussi/virtualenvs/env_2_7_10/bin/python
+
+import sys
+sys.path[0:0] = [
+    '/home/raphaeliarussi/projetos/plone/eggs/ZopeSkel-2.21.2-py2.7.egg',
+    '/home/raphaeliarussi/projetos/plone/eggs/Paste-1.7.5.1-py2.7.egg',
+    '/home/raphaeliarussi/projetos/plone/eggs/setuptools-20.1.1-py2.7.egg',
+    '/home/raphaeliarussi/projetos/plone/eggs/PasteDeploy-1.3.4-py2.7.egg',
+    '/home/raphaeliarussi/projetos/plone/eggs/PasteScript-1.7.5-py2.7.egg',
+    '/home/raphaeliarussi/projetos/plone/eggs/zopeskel.dexterity-1.5.4.1-py2.7.egg',
+    '/home/raphaeliarussi/projetos/plone/eggs/zopeskel.diazotheme-1.1-py2.7.egg',
+    '/home/raphaeliarussi/projetos/plone/eggs/Cheetah-2.2.1-py2.7-linux-x86_64.egg',
+    ]
+
+
+import zopeskel.zopeskel_script
+
+if __name__ == '__main__':
+    sys.exit(zopeskel.zopeskel_script.run())

@@ -1,0 +1,13 @@
+#!/home/raphaeliarussi/virtualenvs/env_2_7_10/bin/python
+
+import sys
+sys.path[0:0] = [
+    '/home/raphaeliarussi/projetos/plone/eggs/setuptools-20.1.1-py2.7.egg',
+    '/home/raphaeliarussi/projetos/plone/eggs/zc.buildout-1.7.1-py2.7.egg',
+    ]
+
+
+import zc.buildout.buildout
+
+if __name__ == '__main__':
+    sys.exit(zc.buildout.buildout.main())

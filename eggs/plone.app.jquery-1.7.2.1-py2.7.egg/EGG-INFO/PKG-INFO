@@ -1,0 +1,64 @@
+Metadata-Version: 1.1
+Name: plone.app.jquery
+Version: 1.7.2.1
+Summary: jQuery integration for Plone
+Home-page: http://pypi.python.org/pypi/plone.app.jquery
+Author: Plone Foundation
+Author-email: plone-developers@lists.sourceforge.net
+License: GPL version 2
+Description: Introduction
+        ============
+        
+        plone.app.jquery adds the `jquery`_ library to Plone.
+        
+        
+        Versions
+        ========
+        
+        Version numbers of the package is the same as the jQuery library + packaging version.
+        
+        For the latest available versions of this package, see our `PyPI page`_.
+        
+        jQuery 1.7 is not supported on Plone < 4.3. So if you have dependencies on plone.app.jquery
+        you should pin it in your buildout configuration to 1.4.4.
+        
+        Note that on Plone 5, this package is no longer used.
+        
+        .. _`jquery`: http://jquery.com
+        .. _`PyPI page`: https://pypi.python.org/pypi/plone.app.jquery
+        
+        Changelog
+        =========
+        
+        
+        1.7.2.1 (2015-08-13)
+        --------------------
+        
+        - Fixed initial upgrade: use correct profile directory.
+          [maurits]
+        
+        
+        1.7.2 (2014-09-07)
+        ------------------
+        
+        - Updated to jQuery 1.7.2
+          [garbas]
+        
+        
+        1.7.1.1 (2012-10-17)
+        --------------------
+        
+        - Updated to jQuery 1.7.1.
+          [various]
+        
+Keywords: Plone jQuery
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: 4.3
+Classifier: Framework :: Zope2
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7

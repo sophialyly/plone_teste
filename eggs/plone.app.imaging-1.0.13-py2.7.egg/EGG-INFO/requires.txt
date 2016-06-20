@@ -1,0 +1,8 @@
+setuptools
+plone.scale [storage]
+z3c.caching
+five.globalrequest
+
+[test]
+collective.testcaselayer
+Products.ATContentTypes
