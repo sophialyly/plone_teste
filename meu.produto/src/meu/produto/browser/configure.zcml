@@ -17,6 +17,14 @@
       directory="static"
       />
 
+  <!-- Transmogrifier -->
+  <browser:page
+    name="news-importacao"
+    for="Products.CMFPlone.interfaces.siteroot.IPloneSiteRoot"
+    class=".migracao.ImportForm"
+    permission="zope2.View"
+    />
+
   <browser:page
         for="*"
         name="visualizar"

@@ -3131,3 +3131,199 @@
 2016-06-20T18:18:37 INFO Plone OpenID system packages not installed, OpenID support not available
 ------
 2016-06-20T18:18:40 INFO Zope Ready to handle requests
+------
+2016-06-21T11:08:49 INFO SignalHandler Caught signal SIGINT
+------
+2016-06-21T11:08:49 INFO Z2 Shutting down
+------
+2016-06-21T11:08:57 INFO ZServer HTTP server started at Tue Jun 21 11:08:57 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-06-21T11:09:00 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-06-21T11:09:02 INFO Zope Ready to handle requests
+------
+2016-06-21T11:33:09 INFO SignalHandler Caught signal SIGINT
+------
+2016-06-21T11:33:09 INFO Z2 Shutting down
+------
+2016-06-21T11:33:14 INFO ZServer HTTP server started at Tue Jun 21 11:33:14 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-06-21T11:33:31 INFO ZServer HTTP server started at Tue Jun 21 11:33:31 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-06-21T14:13:45 INFO ZServer HTTP server started at Tue Jun 21 14:13:45 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-06-21T14:15:59 INFO ZServer HTTP server started at Tue Jun 21 14:15:59 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-06-21T14:17:30 INFO ZServer HTTP server started at Tue Jun 21 14:17:30 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-06-21T14:18:32 INFO ZServer HTTP server started at Tue Jun 21 14:18:32 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-06-21T14:20:35 INFO ZServer HTTP server started at Tue Jun 21 14:20:35 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-06-21T14:22:48 INFO ZServer HTTP server started at Tue Jun 21 14:22:48 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-06-21T14:22:51 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-06-21T14:22:53 INFO Zope Ready to handle requests
+------
+2016-06-21T14:26:51 INFO SignalHandler Caught signal SIGINT
+------
+2016-06-21T14:26:51 INFO Z2 Shutting down
+------
+2016-06-21T14:26:52 INFO ZServer HTTP server started at Tue Jun 21 14:26:52 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-06-21T14:26:55 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-06-21T14:26:57 INFO Zope Ready to handle requests
+------
+2016-06-21T14:27:19 ERROR Zope.SiteErrorLog 1466530039.390.0160618869844 http://localhost:8080/Plone/@@news-importacao
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module z3c.form.form, line 233, in __call__
+  Module z3c.form.form, line 228, in update
+  Module plone.app.z3cform.csrf, line 21, in execute
+  Module z3c.form.action, line 98, in execute
+  Module z3c.form.button, line 315, in __call__
+  Module z3c.form.button, line 170, in __call__
+  Module meu.produto.browser.migracao, line 12, in handle_import_news
+  Module collective.transmogrifier.transmogrifier, line 55, in __call__
+  Module collective.transmogrifier.transmogrifier, line 240, in _load_config
+  Module collective.transmogrifier.transmogrifier, line 33, in getConfiguration
+KeyError: u'news-import'
+------
+2016-06-21T14:27:47 INFO SignalHandler Caught signal SIGINT
+------
+2016-06-21T14:27:47 INFO Z2 Shutting down
+------
+2016-06-21T14:27:51 INFO ZServer HTTP server started at Tue Jun 21 14:27:51 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-06-21T14:27:54 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-06-21T14:27:56 INFO Zope Ready to handle requests
+------
+2016-06-21T14:28:01 ERROR Zope.SiteErrorLog 1466530081.080.890229631963 http://localhost:8080/Plone/@@news-importacao
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module z3c.form.form, line 233, in __call__
+  Module z3c.form.form, line 228, in update
+  Module plone.app.z3cform.csrf, line 21, in execute
+  Module z3c.form.action, line 98, in execute
+  Module z3c.form.button, line 315, in __call__
+  Module z3c.form.button, line 170, in __call__
+  Module meu.produto.browser.migracao, line 12, in handle_import_news
+  Module collective.transmogrifier.transmogrifier, line 55, in __call__
+  Module collective.transmogrifier.transmogrifier, line 240, in _load_config
+  Module collective.transmogrifier.transmogrifier, line 33, in getConfiguration
+KeyError: u'news-importacao'
+------
+2016-06-21T14:28:43 INFO SignalHandler Caught signal SIGINT
+------
+2016-06-21T14:28:43 INFO Z2 Shutting down
+------
+2016-06-21T14:28:46 INFO ZServer HTTP server started at Tue Jun 21 14:28:46 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-06-21T14:28:49 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-06-21T14:28:51 INFO Zope Ready to handle requests
+------
+2016-06-21T14:28:56 ERROR Zope.SiteErrorLog 1466530136.080.574092732708 http://localhost:8080/Plone/@@news-importacao
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module z3c.form.form, line 233, in __call__
+  Module z3c.form.form, line 228, in update
+  Module plone.app.z3cform.csrf, line 21, in execute
+  Module z3c.form.action, line 98, in execute
+  Module z3c.form.button, line 315, in __call__
+  Module z3c.form.button, line 170, in __call__
+  Module meu.produto.browser.migracao, line 12, in handle_import_news
+  Module collective.transmogrifier.transmogrifier, line 60, in __call__
+  Module collective.transmogrifier.utils, line 116, in constructPipeline
+  Module zope.component._api, line 169, in getUtility
+ComponentLookupError: (<InterfaceClass collective.transmogrifier.interfaces.ISectionBlueprint>, u'plone.app.transmogrifier.urlnormalizer')
+------
+2016-06-21T14:30:23 INFO SignalHandler Caught signal SIGINT
+------
+2016-06-21T14:30:23 INFO Z2 Shutting down
+------
+2016-06-21T14:30:24 INFO ZServer HTTP server started at Tue Jun 21 14:30:24 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-06-21T14:30:27 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-06-21T14:30:29 INFO Zope Ready to handle requests
+------
+2016-06-21T14:30:34 ERROR Zope.SiteErrorLog 1466530234.040.0535305348974 http://localhost:8080/Plone/@@news-importacao
+Traceback (innermost last):
+  Module ZPublisher.Publish, line 138, in publish
+  Module ZPublisher.mapply, line 77, in mapply
+  Module ZPublisher.Publish, line 48, in call_object
+  Module z3c.form.form, line 233, in __call__
+  Module z3c.form.form, line 228, in update
+  Module plone.app.z3cform.csrf, line 21, in execute
+  Module z3c.form.action, line 98, in execute
+  Module z3c.form.button, line 315, in __call__
+  Module z3c.form.button, line 170, in __call__
+  Module meu.produto.browser.migracao, line 12, in handle_import_news
+  Module collective.transmogrifier.transmogrifier, line 60, in __call__
+  Module collective.transmogrifier.utils, line 116, in constructPipeline
+  Module zope.component._api, line 169, in getUtility
+ComponentLookupError: (<InterfaceClass collective.transmogrifier.interfaces.ISectionBlueprint>, u'plone.app.transmogrifier.versioning.disable')
+------
+2016-06-21T14:31:20 INFO SignalHandler Caught signal SIGINT
+------
+2016-06-21T14:31:20 INFO Z2 Shutting down
+------
+2016-06-21T14:31:23 INFO ZServer HTTP server started at Tue Jun 21 14:31:23 2016
+	Hostname: 0.0.0.0
+	Port: 8080
+------
+2016-06-21T14:31:26 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-06-21T14:31:28 INFO Zope Ready to handle requests
+------
+2016-06-21T14:34:55 INFO SignalHandler Caught signal SIGINT
+------
+2016-06-21T14:34:55 INFO Z2 Shutting down
+------
+2016-06-23T13:37:52 INFO ZServer HTTP server started at Thu Jun 23 13:37:52 2016
+	Hostname: 0.0.0.0
+	Port: 8081
+------
+2016-06-23T13:38:12 INFO Plone OpenID system packages not installed, OpenID support not available
+------
+2016-06-23T13:38:17 INFO Zope Ready to handle requests
+------
+2016-06-23T13:38:38 INFO SignalHandler Caught signal SIGINT
+------
+2016-06-23T13:38:38 INFO Z2 Shutting down
